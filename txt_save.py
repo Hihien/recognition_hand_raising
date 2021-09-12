@@ -21,7 +21,7 @@ coco_keypoints = [
 ]
 left_person_inds = [coco_keypoints.index(_) for _ in ['nose', 'left_eye', 'right_eye', 'left_ear', 'right_ear', 'left_shoulder', 'left_elbow', 'left_wrist', 'left_hip', 'right_hip']]
 right_person_inds = [coco_keypoints.index(_) for _ in ['nose', 'left_eye', 'right_eye', 'left_ear', 'right_ear','right_shoulder', 'right_elbow', 'right_wrist', 'left_hip', 'right_hip']]
-j =0
+
 str = ''
 with open(file, 'r') as json_file:
     data = json.load(json_file)
